@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitGoals - Build Better Habits Every Day</title>
+    <meta name="description" content="HabitGoals is your personal habit tracking companion. Build streaks, earn achievements, and transform your daily routine.">
+    <meta property="og:title" content="HabitGoals - Build Better Habits Every Day">
+    <meta property="og:description" content="Track habits, build streaks, earn achievements. Your journey to better habits starts here.">
+    <meta property="og:image" content="habitgoals.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="habitgoals.png">
+    <link rel="apple-touch-icon" href="habitgoals.png">
+    <style>
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+        }
+        
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #9CA3AF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-radius: 24px;
+            margin: 40px 0;
+        }
+        
+        .cta-section h2 {
+            margin-bottom: 16px;
+        }
+        
+        .cta-section p {
+            max-width: 500px;
+            margin: 0 auto 24px;
+        }
+        
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="app-icon">
+            <img src="habitgoals.png" alt="HabitGoals App Icon">
+        </div>
+        <h1 class="app-name">HabitGoals</h1>
+        <p class="app-tagline">Build Better Habits Every Day</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="index.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="marketing.html" class="active">About</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-title">Transform Your Daily Routine</h1>
+        <p class="hero-subtitle">Track your habits, build unbreakable streaks, earn achievements, and become the best version of yourself.</p>
+        <div class="hero-buttons">
+            <a href="https://apps.apple.com/app/habitgoals/idYOURAPPID" class="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                </svg>
+                Download on App Store
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="content">
+
+            <!-- Features Section -->
+            <section class="section">
+                <h2 style="text-align: center; margin-bottom: 32px;">Everything You Need to Build Lasting Habits</h2>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">✓</div>
+                        <h3>Simple Habit Tracking</h3>
+                        <p>Create unlimited habits with custom emoji icons. Mark them complete with a single tap. See your week at a glance.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔥</div>
+                        <h3>Streak Building</h3>
+                        <p>Watch your streaks grow day by day. Set custom goals from 7 to 365+ days. Don't break the chain!</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📅</div>
+                        <h3>Visual Calendar</h3>
+                        <p>See your progress with color-coded calendars. Green for wins, red for misses. Go back and fill in forgotten days.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Detailed Statistics</h3>
+                        <p>Beautiful charts show weekly and monthly trends. Track your completion rate and identify patterns.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Earn Achievements</h3>
+                        <p>Unlock badges as you progress. From Bronze to Diamond tier. Two tracks: completions and active days.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📝</div>
+                        <h3>Personal Journal</h3>
+                        <p>Record your thoughts and reflections. Track your mood with emojis. Build a record of your journey.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Smart Reminders</h3>
+                        <p>Set daily reminders to stay on track. Customize your reminder time. Gentle nudges when you need them.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Private</h3>
+                        <p>All data stays on your device. No accounts, no tracking, no ads. Your habits are your business.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works -->
+            <section class="section">
+                <h2 style="text-align: center; margin-bottom: 32px;">How It Works</h2>
+                
+                <div class="card">
+                    <h3><span style="color: var(--accent);">1.</span> Create Your Habits</h3>
+                    <p>Add the habits you want to build. Choose an emoji, set your streak goal, and you're ready to go. Start with 2-3 habits for best results.</p>
+                </div>
+                
+                <div class="card">
+                    <h3><span style="color: var(--accent);">2.</span> Check In Daily</h3>
+                    <p>Each day, tap the checkmark for habits you've completed. The weekly calendar shows your recent progress at a glance with today displayed first.</p>
+                </div>
+                
+                <div class="card">
+                    <h3><span style="color: var(--accent);">3.</span> Build Your Streak</h3>
+                    <p>Watch your streak counter grow. The progress bar fills as you approach your goal. Missed a day? You can go back and fill it in!</p>
+                </div>
+                
+                <div class="card">
+                    <h3><span style="color: var(--accent);">4.</span> Earn Achievements</h3>
+                    <p>As you complete habits, you'll unlock achievement badges with progress bars. Check the Achievements tab to see your progress toward each tier.</p>
+                </div>
+            </section>
+
+            <!-- Why HabitGoals -->
+            <section class="section">
+                <h2 style="text-align: center; margin-bottom: 32px;">Why Choose HabitGoals?</h2>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #10B981 0%, #059669 100%);">💚</div>
+                        <h3>No Account Required</h3>
+                        <p>Start tracking immediately. No sign-up, no email, no passwords. Just download and go.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);">🚫</div>
+                        <h3>No Ads Ever</h3>
+                        <p>Focus on your habits, not on closing pop-ups. HabitGoals is completely ad-free.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);">🎨</div>
+                        <h3>Beautiful Design</h3>
+                        <p>Modern dark theme with customizable accent colors. Smooth animations and haptic feedback.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon" style="background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);">📱</div>
+                        <h3>Works Offline</h3>
+                        <p>No internet required. Your data is stored locally on your device and works anywhere.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <h2>Ready to Build Better Habits?</h2>
+                <p>Start your journey to a better you today. Download HabitGoals and take the first step.</p>
+                <a href="https://apps.apple.com/app/habitgoals/idYOURAPPID" class="btn">
+                    Download Free on App Store
+                </a>
+            </section>
+
+            <!-- About Section -->
+            <section class="section">
+                <h2>About HabitGoals</h2>
+                <p>HabitGoals was created with one simple belief: building good habits shouldn't be complicated.</p>
+                <p>We designed an app that's powerful enough to track all your habits and goals, yet simple enough to use every day without friction. No accounts to create, no subscriptions to manage, no data being collected.</p>
+                <p>Your habits are personal. Your data should be too. That's why everything stays on your device, private and secure.</p>
+                <p>We hope HabitGoals helps you become the person you want to be, one day at a time.</p>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="index.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="marketing.html">About</a>
+        </div>
+        <p class="footer-copyright">© 2024 HabitGoals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
